@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>15 Product Card</title>
+
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+      integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="./assets/css/main.min.css" />
+
+    <!-- Custom JS -->
+    <script src="./assets/js/main.js" defer></script>
+  </head>
+  <body>
+    <div class="product">
+      <span class="product-like">
+        <a href="#"><i class="fa-regular fa-heart"></i></a>
+      </span>
+      <span class="product-cart">
+        <a href="#"><i class="fa-brands fa-opencart"></i></a>
+      </span>
+
+      <div class="product-img">
+        <img src="./assets/images/Nike Zoom KD 12.png" alt="Nike Zoom KD 12" />
+      </div>
+
+      <h2 class="product-title">Nike Zoom KD 12</h2>
+      <span class="product-price">$99</span>
+
+      <ul class="product-sizes">
+        <p>Size:</p>
+        <li><button type="button" class="product-sizes-item">6</button></li>
+        <li><button type="button" class="product-sizes-item">7</button></li>
+        <li><button type="button" class="product-sizes-item">8</button></li>
+        <li><button type="button" class="product-sizes-item">9</button></li>
+      </ul>
+
+      <ul class="product-colors">
+        <p>Color:</p>
+        <li>
+          <button type="button" class="product-colors-item red"></button>
+        </li>
+        <li>
+          <button type="button" class="product-colors-item blue"></button>
+        </li>
+        <li>
+          <button type="button" class="product-colors-item green"></button>
+        </li>
+      </ul>
+
+      <div class="product-btn-group">
+        <button class="product-btn">Buy now</button>
+        <button class="product-btn">Add cart</button>
+      </div>
+    </div>
+  </body>
+</html>
